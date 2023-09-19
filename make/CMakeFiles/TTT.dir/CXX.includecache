@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/QuickTools.h
+iostream
+-
+
+/home/mel/Documents/cbox/TTT/main.cpp
+iostream
+-
+string
+-
+fstream
+-
+QuickTools.h
+-
+

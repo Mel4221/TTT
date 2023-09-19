@@ -1,0 +1,14 @@
+#!/bin/bash
+
+t="""rm main
+g++ main.cpp -o main
+./main $@
+"""
+
+
+cd make;
+rm TTT;
+cmake ../;
+make;
+./TTT
+echo "Done"
